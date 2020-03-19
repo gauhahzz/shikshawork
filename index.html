@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Titillium+Web&display=swap" rel="stylesheet">
+
+    <body>
+        <span id="contactus">Contact Us</span>
+
+        <p>Please send your message below. We will get back to you at the earliest!</p>
+        <form id="contactform">
+            <span id="message11">Message:</span>
+            <textarea placeholder="Enter your valuable feedback here:" id="message"></textarea>
+            <span id="name">Your Name:</span>
+            <input type="text" name="name" id="input1">
+            <span id="email">Email:</span>
+            <input type="Email" name="Email" id="input2">
+            <div class="box"></div>
+            <button type="submit">Send -></button>
+        </form>
+
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA_MRVoxUh5H8JeOJEp3VCSXsjgFZh3b5A",
+    authDomain: "contact-form-ccf3f.firebaseapp.com",
+    databaseURL: "https://contact-form-ccf3f.firebaseio.com",
+    projectId: "contact-form-ccf3f",
+    storageBucket: "contact-form-ccf3f.appspot.com",
+    messagingSenderId: "645391811057",
+    appId: "1:645391811057:web:626b12848dad9b11744450",
+    measurementId: "G-SHHZLE8C1G"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="contact.js"></script>
+    </body>
+
+</html>
