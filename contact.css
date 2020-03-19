@@ -1,0 +1,106 @@
+#contactus {
+    position: absolute;
+    left: 15vh;
+    top: -1vh;
+    font-size: 9vh;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+    top: 13vh;
+    position: absolute;
+    width: 30vw;
+    left: 15vh;
+}
+
+#message11 {
+    position: absolute;
+    left: 15vh;
+    top: 25vh;
+    font-weight: bold;
+}
+
+textarea {
+    position: absolute;
+    left: 15vh;
+    border: 2px solid black;
+    top: 30vh;
+    width: 24vw;
+    height: 28vh;
+    border-radius: 5vh;
+    padding: 6vh;
+}
+
+#name {
+    position: absolute;
+    left: 15vh;
+    top: 73vh;
+    font-weight: bold;
+}
+
+#email {
+    position: absolute;
+    left: 50vh;
+    top: 73vh;
+    font-weight: bold;
+}
+
+#input1 {
+    top: 78vh;
+    position: absolute;
+    left: 15vh;
+    width: 11vw;
+    height: 4vh;
+    border: 2px solid black;
+    border-radius: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+#input2 {
+    top: 78vh;
+    position: absolute;
+    left: 50vh;
+    width: 11vw;
+    height: 4vh;
+    border: 2px solid black;
+    border-radius: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.box {
+    width: 40vw;
+    height: 95vh;
+    margin-left: 5vh;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+    position: absolute;
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-image: url(education.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+button {
+    position: absolute;
+    top: 85vh;
+    left: 31vw;
+    border-radius: 0;
+    width: 13vh;
+    height: 5vh;
+    background-color: gray;
+    color: white;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: black;
+}
