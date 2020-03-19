@@ -24,7 +24,6 @@ p {
 textarea {
     position: absolute;
     left: 15vh;
-    border: 2px solid black;
     top: 30vh;
     width: 24vw;
     height: 28vh;
@@ -52,7 +51,6 @@ textarea {
     left: 15vh;
     width: 11vw;
     height: 4vh;
-    border: 2px solid black;
     border-radius: 2vh;
     padding-left: 2vh;
     padding-right: 2vh;
@@ -64,7 +62,6 @@ textarea {
     left: 50vh;
     width: 11vw;
     height: 4vh;
-    border: 2px solid black;
     border-radius: 2vh;
     padding-left: 2vh;
     padding-right: 2vh;
